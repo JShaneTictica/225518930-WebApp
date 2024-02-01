@@ -39,9 +39,42 @@
     </article>
 
     <h2 id="Sec2">External Resources</h2>
-    asgbra
+    <article>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        
+        <p id="hi"></p>
+        <script>document.getElementById("hi").innerHTML = "Hello JavaScript!!"</script>
+
+    </article>
+
     <h2 id="Sec3">HTML Forms Validation</h2>
-    areygh
+    <article>
+        <form>
+            <label for="user">Email:</label>
+            <input type="text" id="user" name="user" required><br>
+
+            <label for="pwd">Password:</label>
+            <input type="text" id="pwd" name="pwd" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" required><br>
+
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="99" required><br><br>
+
+            <label for="Bday">Birthdate</label>
+            <input type="date" id="Bday" name="Bday"><br><br>
+            
+            <p><strong>Gender:</strong></p>
+            <input type="radio" id="m" name="m" value="">
+            <label for="m"> Male</label><br>
+
+            <input type="radio" id="f" name="f" value="">
+            <label for="f">Female</label><br><br>
+
+            <input type="checkbox" id="tac" name="tac" value="tercon">
+            <label for="tac">Accept Terms and Conditions</label><br>
+            <input type="submit" value="Submit">
+        </form><br>
+    </article>
+
     <h2 id="Sec4">Iframes and Embedded Content</h2>
     astyer5
 
