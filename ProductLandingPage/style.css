@@ -155,11 +155,11 @@ nav > ul {
   height: 30px;
   margin: 15px 0;
   border: 0;
-  background-color: #f1c40f;
+  background-color: #09790e;
 }
 
 #hero input[type='submit']:hover {
-  background-color: orange;
+  background-color: #09790e;
   transition: background-color 1s;
 }
 
@@ -179,7 +179,7 @@ nav > ul {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkorange;
+  color: #09790e;
 }
 
 @media (max-width: 550px) {
@@ -265,12 +265,12 @@ nav > ul {
 .product > button {
   border: 0;
   margin: 15px 0;
-  background-color: #f1c40f;
+  background-color: #09790e;
   font-weight: 400;
 }
 
 .product > button:hover {
-  background-color: orange;
+  background-color: #09790e;
   transition: background-color 1s;
 }
 
