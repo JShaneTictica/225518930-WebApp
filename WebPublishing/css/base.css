@@ -417,6 +417,7 @@ textarea {
 [class*="col-"],
 .bgrid {
 	float: left;
+	width: 550;
 }
 
 [class*="col-"] + [class*="col-"].end {
