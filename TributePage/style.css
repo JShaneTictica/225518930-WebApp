@@ -12,13 +12,15 @@ html {
     font-size: 1.6rem;
     line-height: 1.5;
     text-align: center;
-    color: #333;
+    color: #e8e5eb;
     margin: 0;
+    background-color: #40305c;
   }
   
   h1 {
-    font-size: 4rem;
+    font-size: 55px;
     margin-bottom: 0;
+
   }
   
   @media (max-width: 460px) {
@@ -44,7 +46,7 @@ html {
     margin: 30px 8px;
     padding: 15px;
     border-radius: 5px;
-    background: #eee;
+    background: #250b22;
   }
   
   @media (max-width: 460px) {
@@ -68,6 +70,8 @@ html {
   
   #img-caption {
     margin: 15px 0 5px 0;
+    font-style: italic;
+    color: rgb(203, 203, 203);
   }
   
   @media (max-width: 460px) {
@@ -77,8 +81,9 @@ html {
   }
   
   #headline {
-    margin: 50px 0;
+    margin: 30px 0;
     text-align: center;
+    font-size: 30px;
   }
   
   ul {
@@ -86,10 +91,12 @@ html {
     margin: 0 auto 50px auto;
     text-align: left;
     line-height: 1.6;
+    color: rgb(150, 143, 143);
   }
   
   li {
     margin: 16px 0;
+    font-family: Arial, Helvetica, sans-serif;
   }
   
   blockquote {
@@ -97,4 +104,6 @@ html {
     max-width: 545px;
     margin: 0 auto 50px auto;
     text-align: left;
+    font-size: 30px;
+    color: aliceblue;
   }
